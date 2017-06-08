@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": [
+    "ts/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "demo",
+    "test",
+    "karma.conf.ts",
+    "webpack.config.ts",
+    "webpack.config.common.ts",
+    "webpack.config.ts",
+    "webpack.config.prod.ts",
+    "ts/core/configurations/route.ts",
+    "ts/features/common/directives/index.ts"
+
+  ]
+}
